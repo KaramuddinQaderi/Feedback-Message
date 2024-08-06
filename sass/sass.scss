@@ -1,0 +1,22 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+$theme-bg: #ccc;
+
+body {
+    background-color: $theme-bg;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.modal-header,
+h4,
+.close {
+    background-color: #292929;
+    color: white !important;
+    text-align: center;
+    font-size: 30px;
+}
+.modal-footer {
+    background-color: #f9f9f9;
+}
